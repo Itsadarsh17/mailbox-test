@@ -1,3 +1,3 @@
 class ApplicationMailbox < ActionMailbox::Base
-  routing :all => :receiver
+  routing all: :receiver
 end
