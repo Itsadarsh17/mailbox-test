@@ -57,11 +57,9 @@ end
 gem 'actionmailbox'
 gem 'activeadmin'
 gem 'devise'
+gem 'devise-jwt'
 gem 'mailgun-ruby', '~>1.2.14'
 gem 'pagy'
 gem 'postmark-rails'
 gem 'pry'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-
-gem 'devise'
-gem 'devise-jwt'
