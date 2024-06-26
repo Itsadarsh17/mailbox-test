@@ -5,6 +5,7 @@ class CreateActionMailboxTables < ActiveRecord::Migration[6.0]
       t.integer :status, default: 0, null: false
       t.string  :message_id, null: false
       t.string  :message_checksum, null: false
+      t.text :extracted_data
 
       t.timestamps
 
