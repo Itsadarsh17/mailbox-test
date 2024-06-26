@@ -3,6 +3,10 @@ Rails.application.routes.draw do
     sessions: 'users/sessions',
     registrations: 'users/registrations'
   }
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+
   mount ActionMailbox::Engine => '/rails/action_mailbox'
 
   namespace :api do
